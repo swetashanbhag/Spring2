@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* SpringMVCHelloWorld-0.0.1-SNAPSHOT.war
+web: java $JAVA_OPTS -cp target/classes;target/dependency/* net.viralpatel.spring3.controller.HelloWorldController
